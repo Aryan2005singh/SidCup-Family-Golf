@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/SidCup-Family-Golf/", // 👈 this line is critical for GitHub Pages
+  base: "/", // 👈 this line is critical for GitHub Pages
   server: {
     host: "::",
     port: 8080,
